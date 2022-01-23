@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background: rgb(204, 204, 204);
+    color: rgb(68, 68, 68);
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-transform: uppercase;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-transform: uppercase;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input{
+    border: 2px solid rgb(63, 63, 63);
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    border-bottom:2px solid rgb(27, 27, 27) ;
+    padding-bottom: 20px;
+}
+
+span{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.sub{
+   background: rgb(196, 196, 196);
+   border: none;
+   border-radius: 4px;
+   padding: 5px 10px;
+   font-size: 18px;
+   color: rgb(48, 48, 48);
+   cursor: pointer;
+}
+
+.sub:hover {
+    background: rgb(85, 109, 187);
+    color: rgb(196, 196, 196);
+}
